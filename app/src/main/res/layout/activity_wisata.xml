@@ -1,0 +1,502 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WisataActivity"
+    android:background="@color/green"
+    android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:textColor="#fff"
+                android:layout_marginLeft="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Wisata Populer Di Indonesia"
+                android:id="@+id/dashboard"
+                android:textSize="20sp"/>
+
+        </RelativeLayout>
+
+    <android.support.v7.widget.CardView
+        app:cardElevation="10dp"
+        app:cardCornerRadius="30dp"
+        app:cardBackgroundColor="#FFF0F0F0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="-30dp">
+
+        <ScrollView
+            android:paddingTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:paddingBottom="70dp"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <android.support.v7.widget.CardView
+                    android:focusable="true"
+                    android:clickable="true"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:id="@+id/wisata1"
+                    android:layout_height="100dp"
+                    android:layout_width="match_parent"
+                    android:elevation="6dp"
+                    app:cardCornerRadius="10dp">
+
+                    <LinearLayout
+                        android:background="@drawable/thumb1"
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <RelativeLayout
+                            android:paddingBottom="5dp"
+                            android:paddingLeft="10dp"
+                            android:paddingRight="10dp"
+                            android:background="#64ffffff"
+                            android:gravity="left"
+                            android:layout_marginTop="70dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="30dp">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentBottom="true"
+                                android:text="Wisata Pulau Komodo"
+                                android:textColorHighlight="#000000"
+                                android:textSize="20sp"
+                                android:textStyle="bold"
+                                tools:textColor="@android:color/black" />
+
+                        </RelativeLayout>
+
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:focusable="true"
+                    android:clickable="true"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:id="@+id/wisata2"
+                    android:layout_height="100dp"
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="10dp"
+                    android:elevation="6dp"
+                    app:cardCornerRadius="10dp">
+
+                    <LinearLayout
+                        android:background="@drawable/thumb2"
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <RelativeLayout
+                            android:paddingBottom="5dp"
+                            android:paddingLeft="10dp"
+                            android:paddingRight="10dp"
+                            android:background="#64ffffff"
+                            android:gravity="left"
+                            android:layout_marginTop="70dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="30dp">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentBottom="true"
+                                android:text="Raja Ampat Papua"
+                                android:textColorHighlight="#000000"
+                                android:textSize="20sp"
+                                android:textStyle="bold"
+                                tools:textColor="@android:color/black" />
+
+                        </RelativeLayout>
+
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:focusable="true"
+                    android:clickable="true"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:id="@+id/wisata3"
+                    android:layout_height="100dp"
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="10dp"
+                    android:elevation="6dp"
+                    app:cardCornerRadius="10dp">
+
+                    <LinearLayout
+                        android:background="@drawable/thumb3"
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <RelativeLayout
+                            android:paddingBottom="5dp"
+                            android:paddingLeft="10dp"
+                            android:paddingRight="10dp"
+                            android:background="#64ffffff"
+                            android:gravity="left"
+                            android:layout_marginTop="70dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="30dp">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentBottom="true"
+                                android:text="Bedugul"
+                                android:textColorHighlight="#000000"
+                                android:textSize="20sp"
+                                android:textStyle="bold"
+                                tools:textColor="@android:color/black" />
+
+                        </RelativeLayout>
+
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:focusable="true"
+                    android:clickable="true"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:id="@+id/wisata4"
+                    android:layout_height="100dp"
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="10dp"
+                    android:elevation="6dp"
+                    app:cardCornerRadius="10dp">
+
+                    <LinearLayout
+                        android:background="@drawable/thumb4"
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <RelativeLayout
+                            android:paddingBottom="5dp"
+                            android:paddingLeft="10dp"
+                            android:paddingRight="10dp"
+                            android:background="#64ffffff"
+                            android:gravity="left"
+                            android:layout_marginTop="70dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="30dp">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentBottom="true"
+                                android:text="Candi Borobudur"
+                                android:textColorHighlight="#000000"
+                                android:textSize="20sp"
+                                android:textStyle="bold"
+                                tools:textColor="@android:color/black" />
+
+                        </RelativeLayout>
+
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:focusable="true"
+                    android:clickable="true"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:id="@+id/wisata5"
+                    android:layout_height="100dp"
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="10dp"
+                    android:elevation="6dp"
+                    app:cardCornerRadius="10dp">
+
+                    <LinearLayout
+                        android:background="@drawable/thumb5"
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <RelativeLayout
+                            android:paddingBottom="5dp"
+                            android:paddingLeft="10dp"
+                            android:paddingRight="10dp"
+                            android:background="#64ffffff"
+                            android:gravity="left"
+                            android:layout_marginTop="70dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="30dp">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentBottom="true"
+                                android:text="Gunung Bromo"
+                                android:textColorHighlight="#000000"
+                                android:textSize="20sp"
+                                android:textStyle="bold"
+                                tools:textColor="@android:color/black" />
+
+                        </RelativeLayout>
+
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:focusable="true"
+                    android:clickable="true"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:id="@+id/wisata6"
+                    android:layout_height="100dp"
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="10dp"
+                    android:elevation="6dp"
+                    app:cardCornerRadius="10dp">
+
+                    <LinearLayout
+                        android:background="@drawable/thumb6"
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <RelativeLayout
+                            android:paddingBottom="5dp"
+                            android:paddingLeft="10dp"
+                            android:paddingRight="10dp"
+                            android:background="#64ffffff"
+                            android:gravity="left"
+                            android:layout_marginTop="70dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="30dp">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentBottom="true"
+                                android:text="Pulau Bunaken"
+                                android:textColorHighlight="#000000"
+                                android:textSize="20sp"
+                                android:textStyle="bold"
+                                tools:textColor="@android:color/black" />
+
+                        </RelativeLayout>
+
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:focusable="true"
+                    android:clickable="true"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:id="@+id/wisata7"
+                    android:layout_height="100dp"
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="10dp"
+                    android:elevation="6dp"
+                    app:cardCornerRadius="10dp">
+
+                    <LinearLayout
+                        android:background="@drawable/thumb7"
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <RelativeLayout
+                            android:paddingBottom="5dp"
+                            android:paddingLeft="10dp"
+                            android:paddingRight="10dp"
+                            android:background="#64ffffff"
+                            android:gravity="left"
+                            android:layout_marginTop="70dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="30dp">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentBottom="true"
+                                android:text="Danau Toba"
+                                android:textColorHighlight="#000000"
+                                android:textSize="20sp"
+                                android:textStyle="bold"
+                                tools:textColor="@android:color/black" />
+
+                        </RelativeLayout>
+
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:focusable="true"
+                    android:clickable="true"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:id="@+id/wisata8"
+                    android:layout_height="100dp"
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="10dp"
+                    android:elevation="6dp"
+                    app:cardCornerRadius="10dp">
+
+                    <LinearLayout
+                        android:background="@drawable/thumb8"
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <RelativeLayout
+                            android:paddingBottom="5dp"
+                            android:paddingLeft="10dp"
+                            android:paddingRight="10dp"
+                            android:background="#64ffffff"
+                            android:gravity="left"
+                            android:layout_marginTop="70dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="30dp">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentBottom="true"
+                                android:text="Nusa Penida"
+                                android:textColorHighlight="#000000"
+                                android:textSize="20sp"
+                                android:textStyle="bold"
+                                tools:textColor="@android:color/black" />
+
+                        </RelativeLayout>
+
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:focusable="true"
+                    android:clickable="true"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:id="@+id/wisata9"
+                    android:layout_height="100dp"
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="10dp"
+                    android:elevation="6dp"
+                    app:cardCornerRadius="10dp">
+
+                    <LinearLayout
+                        android:background="@drawable/thumb9"
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <RelativeLayout
+                            android:paddingBottom="5dp"
+                            android:paddingLeft="10dp"
+                            android:paddingRight="10dp"
+                            android:background="#64ffffff"
+                            android:gravity="left"
+                            android:layout_marginTop="70dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="30dp">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentBottom="true"
+                                android:text="Wakatobi"
+                                android:textColorHighlight="#000000"
+                                android:textSize="20sp"
+                                android:textStyle="bold"
+                                tools:textColor="@android:color/black" />
+
+                        </RelativeLayout>
+
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:focusable="true"
+                    android:clickable="true"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:id="@+id/wisata10"
+                    android:layout_height="100dp"
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="10dp"
+                    android:elevation="6dp"
+                    app:cardCornerRadius="10dp"
+                    android:layout_marginBottom="20dp">
+
+                    <LinearLayout
+                        android:background="@drawable/thumb10"
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <RelativeLayout
+                            android:paddingBottom="5dp"
+                            android:paddingLeft="10dp"
+                            android:paddingRight="10dp"
+                            android:background="#64ffffff"
+                            android:gravity="left"
+                            android:layout_marginTop="70dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="30dp">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentBottom="true"
+                                android:text="Gili Trawangan"
+                                android:textColorHighlight="#000000"
+                                android:textSize="20sp"
+                                android:textStyle="bold"
+                                tools:textColor="@android:color/black" />
+
+                        </RelativeLayout>
+
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>
